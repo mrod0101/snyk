@@ -48,7 +48,7 @@ jobs:
             os: ubuntu
           - snyk_install_method: docker-bundle
             os: macos
-            snyk_cli_dl_file: docker-mac-signed-bundle.tar.gz
+            snyk_cli_dl_file: snyk-for-docker-desktop-darwin-x64.tar.gz
 
     steps:
       - uses: actions/checkout@v2
